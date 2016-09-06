@@ -9,8 +9,8 @@ h3,
 h4,
 h5,
 h6 {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #818d92;
   line-height: 48px;
   display: inline;
 }
@@ -42,7 +42,7 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000;
+  color: #efe9e7;
   line-height: 22px;
 }
 
@@ -57,10 +57,9 @@ h2,
 h3,
 h4,
 h5 {
-  padding:10px 5%;
+  padding: 10px 5%;
 
 }
-
 
 .date-text {
   font-style: italic;
@@ -97,30 +96,32 @@ a {
   font-size: 18px;
   color: #f3f3f3;
   line-height: 28px;
+  padding-bottom: 0;
 }
 
 #skills-h3 {
-  color: #f5ae23;
-  display: none;
+  color: #818d92;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #818d92;
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #818d92;
 }
 
 .white-text {
   font-weight: bold;
-  color: #fff;
+  color: #efe9e7;
 }
 
 .gray {
   background-color: #f3f3f3;
   padding-bottom: 10px;
-  clear:both;
+  clear: both;
 }
 
 .dark-gray {
@@ -129,7 +130,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #454851;
 }
 
 .flex-box {
@@ -159,8 +160,23 @@ ul {
 .biopic {
   float: left;
   padding: 10px;
-  width: 200px;
+  width: 50px;
   display: none;
+}
+
+#online-classes {
+  color: #818d92;
+  text-align: left;
+  padding-left: 0;
+}
+
+.online-school {
+  text-align: left;
+  display: inline;
+}
+
+.online-dates {
+  float: none;
 }
 
 img {
@@ -171,8 +187,18 @@ span {
   padding: 5px;
 }
 
+#role {
+  text-align: right;
+  color: #2d3142;
+  font-size: 25px;
+}
+
 #lets-connect {
   text-align: center;
+}
+
+.connect-text {
+  color: #efe9e7;
 }
 
 /* Media queries to handle various device widths */
@@ -185,7 +211,7 @@ span {
 
 @media only screen and (max-width:900px) {
   .biopic {
-    width: 175px;
+    width: 40px;
   }
 }
 
@@ -194,7 +220,7 @@ span {
     margin-top: 10%;
   }
   .biopic {
-    width: 150px;
+    width: 31px;
   }
   .welcome-message {
     display: none;
