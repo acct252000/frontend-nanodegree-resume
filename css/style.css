@@ -103,15 +103,15 @@ a {
     padding-bottom: 0;
 }
 
-.orange {
+.grey {
     background-color: #818d92;
 }
 
-.orange-text {
+.medium-grey-text {
     color: #818d92;
 }
 
-.white-text {
+.light-grey-text {
     font-weight: bold;
     color: #efe9e7;
 }

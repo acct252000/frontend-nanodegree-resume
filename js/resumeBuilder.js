@@ -16,7 +16,7 @@ var bio = {
     "skills": [
 		"English Fluency", "Internet Surfer"
 	],
-    "bioPic": "images/profile.svg"
+    "biopic": "images/profile.svg"
 };
 
 // Define the object education containing school and online course information for the resume.
@@ -136,7 +136,7 @@ bio.display = function() {
     $("#footerContacts").append(HTMLgithub.replace("%data%", bio.contacts.github));
     $("#footerContacts").append(HTMLtwitter.replace("%data%", bio.contacts.twitter));
     $("#footerContacts").append(HTMLlocation.replace("%data%", bio.contacts.location));
-    $("#header").append(HTMLbioPic.replace("%data%", bio.bioPic));
+    $("#header").append(HTMLbiopic.replace("%data%", bio.biopic));
 
     $("#header").append(HTMLskillsStart);
     //iterates over each skill and displays on document. Foreach not used as Array.
@@ -166,6 +166,7 @@ education.display = function() {
     });
     $(".education-entry:last").append(HTMLonlineClasses);
     education.onlineCourses.forEach(function(onlineCourse) {
+        ($"#education").append(HTMLschoolStart);
         var onlineTitle = HTMLonlineTitle.replace("%data%", onlineCourse.title);
         var onlineTitleWithLink = onlineTitle.replace("#", onlineCourse.url);
         var onlineSchool = HTMLonlineSchool.replace("%data%", onlineCourse.school);
