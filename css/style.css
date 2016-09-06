@@ -103,15 +103,15 @@ a {
     padding-bottom: 0;
 }
 
-.grey {
+.darker-gray {
     background-color: #818d92;
 }
 
-.medium-grey-text {
+.medium-gray-text {
     color: #818d92;
 }
 
-.light-grey-text {
+.light-gray-text {
     font-weight: bold;
     color: #efe9e7;
 }

@@ -8,17 +8,17 @@ These are HTML strings with the %data% or # replaced through the resumeBuilder.j
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<div id="role">%data%</div><hr>';
 
-var HTMLmobile = '<li class="flex-item"><span class="medium-grey-text">mobile</span><span class="light-grey-text">%data%</span></li>';
-var HTMLemail = '<li class="flex-item"><span class="medium-grey-text">email</span><span class="light-grey-text">%data%</span></li>';
-var HTMLtwitter = '<li class="flex-item"><span class="medium-grey-text">twitter</span><span class="light-grey-text">%data%</span></li>';
-var HTMLgithub = '<li class="flex-item"><span class="medium-grey-text">github</span><span class="light-grey-text">%data%</span></li>';
-var HTMLlocation = '<li class="flex-item"><span class="medium-grey-text">location</span><span class="light-grey-text">%data%</span></li>';
+var HTMLmobile = '<li class="flex-item"><span class="medium-gray-text">mobile</span><span class="light-gray-text">%data%</span></li>';
+var HTMLemail = '<li class="flex-item"><span class="medium-gray-text">email</span><span class="light-gray-text">%data%</span></li>';
+var HTMLtwitter = '<li class="flex-item"><span class="medium-gray-text">twitter</span><span class="light-gray-text">%data%</span></li>';
+var HTMLgithub = '<li class="flex-item"><span class="medium-gray-text">github</span><span class="light-gray-text">%data%</span></li>';
+var HTMLlocation = '<li class="flex-item"><span class="medium-gray-text">location</span><span class="light-gray-text">%data%</span></li>';
 
 var HTMLbiopic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
 var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-column"></ul>';
-var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
+var HTMLskills = '<li class="flex-item"><span class="light-gray-text">%data%</span></li>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkEmployer = '<a href="#">%data%';

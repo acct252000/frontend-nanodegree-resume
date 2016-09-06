@@ -166,7 +166,7 @@ education.display = function() {
     });
     $(".education-entry:last").append(HTMLonlineClasses);
     education.onlineCourses.forEach(function(onlineCourse) {
-        ($"#education").append(HTMLschoolStart);
+        $("#education").append(HTMLschoolStart);
         var onlineTitle = HTMLonlineTitle.replace("%data%", onlineCourse.title);
         var onlineTitleWithLink = onlineTitle.replace("#", onlineCourse.url);
         var onlineSchool = HTMLonlineSchool.replace("%data%", onlineCourse.school);
